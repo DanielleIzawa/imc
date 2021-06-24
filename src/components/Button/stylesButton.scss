@@ -1,0 +1,20 @@
+.calculate{
+    background-color: var(--blue);
+    color: var(--white);
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 296px;
+    height: 65px;
+    margin-left: 13rem;
+    
+    font-weight: 800;    
+    
+    transition: filter 0.2s;
+    cursor: pointer;
+
+    &:hover{
+        filter: brightness(0.9);
+    }
+}
